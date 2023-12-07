@@ -9,7 +9,7 @@ app.use(bodyParser.json());
 app.post("/", (req, res) => {
   var data = req.body;
     console.log(data);
-  Employees.deleteOne({email : data.email}, function(err){
+  Employees.deleteOne({email : req.body.email}, function(err){
     if(err){
         console.log(err);
     }

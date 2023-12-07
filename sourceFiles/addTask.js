@@ -1,8 +1,10 @@
 import express from "express";
 import bodyParser from "body-parser";
+//routing folder named models
 import Tasks from "../models/tasks.js";
 
 var app = express();
+//NOTE - this is used to read the data from post method
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(bodyParser.json());
 

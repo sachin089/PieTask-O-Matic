@@ -12,7 +12,7 @@ app.post("/", (req,res) => {
 
     console.log("we in backend on login");
     console.log(data);
-    Employees.findOne({email : data.email}, function(err, result){
+    Employees.findOne({email : req.body.email}, function(err, result){
         if(err){
             console.log("we got a error");
             console.log(err);
@@ -21,7 +21,7 @@ app.post("/", (req,res) => {
             if(result == null){
                 res.send("NO USER");
             }
-            else if(data.password != result.password){
+            else if(req.body.password != result.password){
                 res.send("INVALID LOGIN");
             }
             else res.send(result);
