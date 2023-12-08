@@ -4,7 +4,7 @@ import dotenv from "dotenv"
 
 dotenv.config();
 
-var URI = process.env.URI;
+var URI = "mongodb+srv://sachinparmar98134:sachin123@cluster0.ybjfbpw.mongodb.net/?retryWrites=true&w=majority";
 
 async function connectDB(){
     try{
