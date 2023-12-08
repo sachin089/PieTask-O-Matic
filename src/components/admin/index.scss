@@ -1,0 +1,32 @@
+$lightBlack : #1B1C21;
+$darkBlack : #141518;
+$white : #FDFCFF;
+$primaryPurple : #161A30;
+$secondaryGreen : #166c09;
+$secondaryRed : #5f0514;
+$secondaryBlue : #31304D;
+$grey: #AEAEAE;
+
+.admin{
+    .top-part{
+
+        display: grid;
+        margin-top: 50px;
+        margin-left: 120px;
+        margin-right: 120px;
+        margin-bottom: 30px;
+        grid-template-columns: 648px 648px;
+        button{
+            margin-left: 444px;
+            margin-right: 0px;
+            height: 47px;
+            width: 204px;
+            background-color: #31304D;
+            padding: 5px 15px;
+            border: 0px;
+            border-radius: 10px;
+            color: #FDFCFF;
+            cursor: pointer;
+        }
+    }
+}

@@ -5,7 +5,7 @@ function createUser(){
     var Employee = new Employees({
         name : "Admin",
         email : "admin@gmail.com",
-        password : "asdf",
+        password : "123456",
         contact: "1234",
         joining : d.getTime(),
         department : "Dep",

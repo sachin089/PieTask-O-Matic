@@ -10,7 +10,7 @@ app.use(bodyParser.json());
 app.post("/", (req,res) => {
     var data = req.body;
 
-    console.log("we in backend on login");
+    console.log("we are in backend on login");
     console.log(data);
     Employees.findOne({email : req.body.email}, function(err, result){
         if(err){
@@ -28,7 +28,6 @@ app.post("/", (req,res) => {
 
         }
     })
-
 
 
 
