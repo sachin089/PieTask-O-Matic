@@ -51,9 +51,7 @@ function ShowAllData(props) {
               <td>{employee.department}</td>
               <td>{employee.joining.slice(0, 10)}</td>
               <td>
-                <button>
-                  <MdEdit size={25} color="#0361FF" />
-                </button>
+                
                 <button
                   onClick={(e) => {
                     e.preventDefault();

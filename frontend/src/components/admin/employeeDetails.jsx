@@ -1,7 +1,7 @@
 import React from "react";
 import axios from "axios";
 
-import {MdArrowDropDownCircle} from "react-icons/md"
+import {MdArrowBack} from "react-icons/md"
 import "./employeeDetails.scss"
 import AllTasks from "../Employee/TasksTable";
 import TodayEmployee from "../Employee/todayEmployee";
@@ -29,7 +29,7 @@ function Details(props) {
         event.preventDefault();
         props.setEmployeeDateShown(false);
       }}>
-        <MdArrowDropDownCircle size={40} color={"#0361FF"}/>
+        <MdArrowBack size={40} color={"#0361FF"}/>
       </button>
       <div className="employee-data">
         <div className="employee-task">

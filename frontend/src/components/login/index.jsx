@@ -67,7 +67,7 @@ function Login(){
             onChange={(e) => setPassword(e.target.value)}
           />
           <br />
-          <button onClick={sendData} className = "submitButton button"> Login To LogBook </button>
+          <button onClick={sendData} className = "submitButton button"> Login To TaskSyncPro </button>
         </form>
       </div>
     );

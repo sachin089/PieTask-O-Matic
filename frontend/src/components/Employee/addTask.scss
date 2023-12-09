@@ -1,4 +1,4 @@
-$secondaryBlue : #0361FF;
+$secondaryBlue : #6A9C89;
 $white : #FDFCFF;
 
 .modal{
@@ -13,7 +13,8 @@ $white : #FDFCFF;
         background: transparent;
         border: 0px;
         position: absolute;
-        left: 300px;
+        top: 60px;
+        left: 640px;
     }
 
     .addTask{
@@ -32,6 +33,7 @@ $white : #FDFCFF;
         form{
             width: 500px;
             margin: auto;
+            margin-top: 30px;
             label{
                 margin-bottom: 15px;
                 padding-left: 15px;
@@ -62,7 +64,7 @@ $white : #FDFCFF;
             }
             button{
                 width: 500px;
-                margin-top: 20px;
+                margin-top: 30px;
                 height: 50px;
                 border: 0px;
                 border-radius: 10px;

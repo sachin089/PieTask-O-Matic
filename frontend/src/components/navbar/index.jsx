@@ -28,13 +28,10 @@ function Navbar(){
       <nav className="nav">
         <div className="logos">
           <div className="singleElement">
-            <img src={lightLogo} alt="" />
-            <h2>LogBook</h2>
+            <h2>TaskSync Pro</h2>
           </div>
         </div>
-        <div className="display-mode">
-          {/* <MdDarkMode className="mode-button" size={35.75}></MdDarkMode> */}
-          <button onClick={handleLogClick} className="LogButton button">{isLoggedIn ? "LogOut" : "LogIn"}</button>
+        <div className="display-mode"><button onClick={handleLogClick} className="LogButton button">{isLoggedIn ? "LogOut" : "LogIn"}</button>
         </div>
       </nav>
     );

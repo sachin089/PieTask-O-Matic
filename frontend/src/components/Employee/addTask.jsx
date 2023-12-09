@@ -65,7 +65,7 @@ function AddTaskButton(props){
                         value={description}
                         onChange = {(e) => setDescription(e.target.value)}/>
                         <br />
-                        <label htmlFor="datatime-local" className="s2">Task Type</label>
+                        <label htmlFor="datatime-local" className="s2">Task Date and Time</label>
                         <input id="datatime-local" type = "datetime-local" value = {startTime}
                         onChange = {(e) => setStart(e.target.value)}/>
                         <br />
